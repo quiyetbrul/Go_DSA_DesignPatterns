@@ -1,4 +1,4 @@
-package creational
+package singleton
 
 /*
 - provides a single instance of an object
