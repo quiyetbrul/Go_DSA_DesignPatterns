@@ -1,4 +1,4 @@
-module go_dsa
+module github.com/quiyetbrul/Go_DSA_DesignPatterns
 
 go 1.23.2
 
