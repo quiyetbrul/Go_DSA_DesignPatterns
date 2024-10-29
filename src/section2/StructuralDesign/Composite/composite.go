@@ -49,3 +49,14 @@ type CompositeSwimmerB struct {
 	Trainer
 	Swimmer
 }
+
+type Animal struct{}
+
+func (a *Animal) Eat() {
+	println("Eating")
+}
+
+type Shark struct {
+	Animal
+	Swim func()
+}
